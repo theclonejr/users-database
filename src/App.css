@@ -28,3 +28,15 @@
     transform: scale(1.05);
     filter: brightness(1.2);
 }
+
+.credits{
+    display: flex;
+    justify-content: center;
+}
+
+.credits>p{
+    color: rgb(99, 98, 98);
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-bottom: 0.4em;
+}
