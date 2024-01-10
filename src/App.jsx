@@ -8,7 +8,7 @@ function App() {
   const [infoUpdate, setInfoUpdate] = useState();
   const [isDisable, setIsDisable] = useState(true);
 
-  const url = "https://users-crud.academlo.tech";
+  const url = "https://users-backend-dev-qpda.3.us-1.fl0.io";
   const [users, getUsers, createUsers, deleteUsers, updateUsers] = useCrud(url);
 
   useEffect(() => {
